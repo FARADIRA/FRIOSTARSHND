@@ -1,0 +1,119 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&dispaly=swap');
+@import url('css.css');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* MENU */
+
+#menu li > a {
+    font: size 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu form > button {
+    font: size 18px;
+    font-weight: bold;
+}
+
+/* SLIDER DE IMAG */
+
+.carousel- inner {
+    max-height: 39rem;
+}
+
+/*MEDIA QUERIES PANTALLA PEQUEÑA*/
+
+@media (max-width:768px) {
+    #intro, #productos {
+       width:90%;  
+    }
+
+    #productos p {
+        display: none;
+    }
+    .servicio-fila{
+        width:100% 
+        text-align center;
+    }
+}
+
+/*MEDIA QUERIES PANTALLA EXTRA PEQUEÑA*/
+
+@media (max-width: 576px) {
+    .icono-wrap{
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+}
+
+/*PRODUCTOS CARD*/
+
+.card {
+    max-width: 340px;
+    border: solid 1px rgb(5, 107, 148);
+    margin: 0.85rem auto;
+    padding: 0.30rem;
+    box-shadow: 1px 1px 3px #312f2f;
+    border-radius: 3px;
+}
+
+/*PADING*/
+
+main {
+    padding: 0.5rem 1rem;
+}
+
+/*PRODUCTOS IMAGEN*/
+
+.image img{
+    width: 100%;
+}
+
+/*PRECIO*/
+
+.price {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+/*PEDIDO WHATSAPP*/
+
+#whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+ }
+
+ svg {
+    width: 80px;
+    filter: drop-shadow(0 1px 4px rgba(21, 123, 163, 0.4));
+ }
+
+ /*COLOR FONDO*/
+
+ .color{
+	background-color: #a191dd;
+}
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: var(--gris) ;
+    position: absolute;
+  }
+  
+  footer p{
+  margin-top: 3rem;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+  
+}
